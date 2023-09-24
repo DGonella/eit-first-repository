@@ -1,0 +1,37 @@
+/* Helloooo soy un comentario en CSS, me hice con CTRL+K+C */
+
+p, h1{
+    color: rgb(24, 243, 43);
+    font-family:Arial, Helvetica, sans-serif
+}
+h1{
+    color: rgb(162, 72, 214);
+}
+
+/* # se usa para identificar los ID */
+aside{
+    width: 150px;
+}
+
+#content{ 
+    display: flex;
+    width: 900px;
+}
+.d-flex{
+    display:flex
+}
+
+/* . se usa para identificar las CLASES */
+
+.bg-color-liliac{
+    background-color: rgb(126, 140, 221);
+}
+.bg-color-violet{
+    background-color: rgb(106, 60, 233);
+}
+.bg-color-blue{
+    background-color: rgb(39, 36, 187);
+}
+.bg-color-green{
+    background-color: rgb(77, 201, 164);
+}
