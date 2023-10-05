@@ -2,60 +2,82 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Esta es la web del Bootcamp Full Stack">
-    <title>Index HTML Full Stack</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Clase nro 3</title>
+    <link rel="stylesheet" href="style/index.css">
 </head>
 <body>
-        <!--La etiqueta H1 es para el encabezado principal-->
-    <header class="bg-color-liliac">
-        <h1>
-            Elegi tu Bootcamp
-        </h1>
-        <p>
-            Menu
-        </p>
+    <header class="header-container">
+        <h1>Clase 3</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a 
+                        href="https://www.educacionit.com/"
+                        title="Ir a página externa de educación IT"
+                        target="_blank"
+                    >
+                        Ir a educación IT
+                    </a>
+                </li>
+                <li>
+                    <a href="./folder1/folder2/folder3/nosotros.html">Sobre nosotros</a>
+                </li>
+                <li>
+                    <a href="#clientes">Nuestros Clientes</a>
+                </li>
+                <li>
+                    <a href="mailto:hola@educacionit.com">Contactanos</a>
+                </li>
+                <li>
+                    <a href="tel:1111222233">Teléfono</a>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <div class="d-flex">
-    <aside>
-        <ul> <!--UL es lista desordenada, UL>LI*3 abreviacion para crear la lista-->
-            <li>Menu Item</li>
-            <li>Menu Item</li>
-            <li>Menu Item</li>
-        </ul>
-    </aside>
-    <main id="content"> 
-        <!--En el MAIN se localiza el contenido principal de nuestra web-->
-    <div class="bg-color-violet">
-        <h1>Bootcamp Fullstack</h1>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Deleniti totam optio, 
-            eos repellendus quod dolor iste id quae,
-            qui unde eius alias mollitia, eum illum nam numquam itaque?
-        </p> 
-    </div>
-    <div class="bg-color-blue">
-        <h1>Bootcamp Ciberseguridad</h1>
-        <p>
-            Et, quisquam!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            <br> Deleniti totam optio, 
-            eos repellendus quod dolor iste id quae,
-            ui unde eius alias mollitia, eum illum nam numquam itaque? Et, quisquam! 
+    <section>
+        <h2>Nuestra Historia</h2>
+        <div class="d-flex">
+            <div class="image-container">
+                <img 
+                    src="https://www.xtrafondos.com/descargar.php?id=5846&resolucion=2560x1440" 
+                    alt="Una imagen de noche, con cielo violeta, un rio y una montaña con la luna de fondo"
+                    class="image">
+            </div>
+            <div class="ml-1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolorem illum nulla ullam tempora quia porro praesentium totam aut. Maiores a velit error tempore vero! Eveniet dolores saepe dolorem. Esse? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, nam voluptatem voluptate sapiente quae temporibus hic aliquid. Ea, cumque aliquid. Sequi quae reiciendis delectus illo veritatis dolores doloribus, eum accusamus!</p>
+                <ul>
+                    <li>Argentina</li>
+                    <li>Chile</li>
+                    <li>Uruguay</li>
+                    <li>Colombia</li>
+                    <li>Peru</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="clientes">
+        <h2>Nuestros Clientes 3</h2>
+        <img 
+            src="/fantastica-vista-cascada-kirkjufellsfoss-cerca-montana-kirkjufell-al-atardecer_761071-868.avif" 
+            alt="Amanecer en las cascadas y mucho pasto"
+            class="image float-right height-200">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit ratione obcaecati minus possimus, est adipisci quis mollitia magnam aliquam ut sit libero. Inventore, quaerat qui temporibus ut consequatur explicabo quae!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore saepe, assumenda voluptatem expedita ratione tenetur officia tempora exercitationem magnam corrupti consectetur in quos, aliquid dolorum perspiciatis accusamus praesentium rerum. Atque.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore saepe, assumenda voluptatem expedita ratione tenetur officia tempora exercitationem magnam corrupti consectetur in quos, aliquid dolorum perspiciatis accusamus praesentium rerum. Atque.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore saepe, assumenda voluptatem expedita ratione tenetur officia tempora exercitationem magnam corrupti consectetur in quos, aliquid dolorum perspiciatis accusamus praesentium rerum. Atque.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore saepe, assumenda voluptatem expedita ratione tenetur officia tempora exercitationem magnam corrupti consectetur in quos, aliquid dolorum perspiciatis accusamus praesentium rerum. Atque.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore saepe, assumenda voluptatem expedita ratione tenetur officia tempora exercitationem magnam corrupti consectetur in quos, aliquid dolorum perspiciatis accusamus praesentium rerum. Atque.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore saepe, assumenda voluptatem expedita ratione tenetur officia tempora exercitationem magnam corrupti consectetur in quos, aliquid dolorum perspiciatis accusamus praesentium rerum. Atque.
         </p>
-    </div>
-    <div class="bg-color-green">
-        <h1>Bootcamp Videojuegos</h1>
-        <p>
-            Et, quisquam!Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            <br> Deleniti totam optio, 
-            eos repellendus quod dolor iste id quae,
-            ui unde eius alias mollitia, eum illum nam numquam itaque? Et, quisquam!
-        </p>
-    </div>
-    </main>
-    </div>
+    </section>
+    <section>
+        <h2>Galeria</h2>
+        <div class="container-galery">
+            <img src="batman.jpeg" alt="Imagen ilustrativa de batman" class="galery-images">
+            <img src="deadpool.jpeg" alt="Imagen ilustrativa de Dead pool" class="galery-images">
+            <img src="messi.jpeg" alt="Imagen ilustrativa de Messi" class="galery-images">
+            <img src="one-punch-man.webp" alt="Imagen ilustrativa de One Punch man" class="galery-images">
+            <img src="Spawn.png" alt="Imagen ilustrativa de Spawn" class="galery-images">
+            <img src="superman.jpeg" alt="Imagen ilustrativa de Superman" class="galery-images">
+        </div>
+    </section>
 </body>
 </html>

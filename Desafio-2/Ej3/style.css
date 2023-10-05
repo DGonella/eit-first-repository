@@ -1,0 +1,53 @@
+
+body{
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.img-disney{
+    width:500px;
+    margin:auto;
+}
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing:20px;
+    color: #bb5094;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing:7px;
+    font-weight: lighter;
+    color: #bb5094;
+}
+p{
+    color: #6c9cda;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.disney-pop{
+    height: 200px;
+    float: right;
+}
+.disney-beach{
+    height: 200px;
+    float: left;
+    padding-right: 10px;
+}
+.title-animal{
+    margin-left: 25%;
+}
+.disney-animal{
+    height: 200px;
+    float: right;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+.img-mickey{
+    text-align: center;
+}
+.img-mickey-conf{
+    width:100% ;
+}
